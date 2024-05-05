@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Fitness Apparel and Equipment Store</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <style>
+        body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ 
+.nav-inputs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 27vw;
+    margin-top: 5vh;
+
+}
+.nav-inputs .nav {
+    list-style: none;
+    
+}
+.nav-inputs .nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3em;
+ 
+}
+#pa{
+  border: white 2px solid;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+.nav-inputs .nav a:hover{
+    color: rgb(248, 195, 195);
+}
+#products1{
+  text-align: center;
+  margin-top:20vh;
+}
+#products1 .pro-container{
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  margin-left: 8vw ;
+  gap:6vw;  
+}
+#products1 h2{
+    color: white;
+    font-size: 2em;
+}
+#products1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 5px 15px;
+  background-color: rgb(241, 238, 238);
+   border: 1px solid #cce7d0;
+   border-radius: 25px;
+   cursor: 0;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0,0.2);
+   margin: 15px 0;
+   transition: 0.2s ease-in-out;
+   
+}
+#products1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0,0.3);
+}
+#products1 .pro .img{
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  height: 290px;
+
+}
+#products1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+
+}
+#products1 .pro .des span{
+  color: #465b52;
+  font-size: 12px;
+}
+#products1 .pro .des h5{
+  padding-top: 7px;
+  color: #222;
+  font-size: 14px;
+}
+#products1 .pro .des i{
+  font-size: 12px;
+  color: rgb(255, 238, 0);
+}
+#products1 .pro .des h2{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+  
+}
+#products1 .pro .cart{
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: rgb(198, 221, 189);
+  font-weight: 500;
+  color: green;
+  padding: 5px;
+  border: 1px solid #cce7d0;
+  
+}
+  
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+  }
+  footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  
+    
+  }
+  footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  
+  }
+  footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+  
+  }
+  footer a{
+    font-size: 13px;
+   text-decoration: none;
+   color: black;
+   margin-bottom: 10px;
+   
+  }
+  footer.follow{
+    margin-top: 20px;
+  
+  }
+  footer.follow i{
+    color: rgb(12, 12, 12);
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  footer .col .Install .row img{
+    border: 1px solid rgb(255, 249, 249);
+    border-radius: 6px;
+    
+  
+  }
+  
+  footer  .Install  img{
+    margin: 10px 0 15px 0;
+    
+  
+  }
+  footer .follow i:hover,
+  footer a:hover{
+    color: rgb(204, 20, 20);
+  }
+  
+  footer .copyright{
+    width: 100%;
+    text-align: center;
+  }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-inputs">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav" ><a id="pa" href="product.html">Products</a></li>
+                <li class="nav"><a href="aboutus.html">About Us</a></li>
+                <li class="nav"> <a href="Blog.html" id="subscribe-link">Subscribe</a></li>
+                <li class="nav"> <a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!---------------------------top charts ---------------->
+<section id="products1" class="section-p1">
+    <h2>TOP SELLING </h2>
+    <marquee behavior="scroll" direction="left" style="color: white;">
+        Get ready to embrace the warmth and style of the season with our latest Summer Arrivals.
+    </marquee>
+    <div class="pro-container">
+        <div class="pro">
+            <img class="img" src="img/img3.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>HANDGLOVE</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img1.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SIDE BAR</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img6.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>PUSH UP BOARD</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img1.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>ROLLER</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img2.jpg">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SIT UP BENCH</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img3.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>BLACK GLOVE</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img4.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>BLACK MAGIC</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img5.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SELF THRED </h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+
+        <div class="pro">
+            <img class="img" src="img/img6.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>pink mayana</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img7.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>ORANGE GRIPER</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img8.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>ROLLER PUSH</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img9.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SIT UP BAR</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+
+        <div class="pro">
+            <img class="img" src="img/img10.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>yellow SKIPPER</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img11.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>WATER BOTTLE</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>GYM CARRIER</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img12.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SWEAT T</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img13.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SWEAT SHIRTS</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img14.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>SHORTS </h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img15.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>BLUE GRIPER</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img16.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>HAND GLOVE</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img17.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>GREEN GRIPPER </h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img18.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>PUSH UP BAR</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img19.jpg" alt="">
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>YELLOW BAR</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+        <div class="pro">
+            <img class="img" src="img/img10.jpg"    >
+            <div class="des">
+                <span>Style Zone</span>
+                <h5>yellow SKIPS</h5>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>&#8377  579</h2>
+            </div>
+           <a href="#"><img class="cart" src="img/cart.png"></a>
+        </div>
+
+    </div>
+</section>
+<footer>
+    <!-- Footer content -->
+    <div class="col">
+        <h4>contact</h4>
+        <p> <b>address :</b> "123 Main Street,
+            City Centre,
+            New Delhi, India" </p>
+        <p> <b>phone :</b>(+91)873488234/(+91)87536638756</p>
+        <p><b>open hours:</b> 10:00-18.00 , mon - sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"> <img src="img/Facebook.png" alt=""></i>
+                <i class="fab fa-twitter"><img src="img/TwitterX.png" alt=""></i>
+                <i class="fab fa-instagram"> <img src="img/instagram.png" alt=""></i>
+                <i class="fab fa-youtube"> <img src="img/yt.png" alt=""></i>            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#"> Delivery Policy</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms And Condition</a>
+        <a href="#">Contact us </a>
+
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Orders</a>
+        <a href="#">Help </a>
+
+    </div>
+    <div class="col Install">
+        <h4>Install App</h4>
+        <p>From App Store or Google PlayStore</p>
+        <div class="row">
+            <img src="img/download.png" alt="">
+            <img src="img/download (1).png" alt="">
+        </div>
+        <img src="img/images.png" alt="" width="300px">
+    </div>
+    <div class="copyright">
+
+        <p>&copy; 2024 Fitness Apparel and Equipment Store. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
